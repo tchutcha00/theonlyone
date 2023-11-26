@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hardek" script="data/npc/scripts/infominera.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="153" head="85" body="90" legs="90" feet="77" addons="3"/>
+</npc>

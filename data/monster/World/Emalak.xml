@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Emalak" nameDescription="Emalak" race="blood" experience="0" speed="800" manacost="0">
+	<health now="7000000" max="7000000"/>
+  	<look type="12" head="0" body="95" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="240" attack="700"/>
+
+            <attack name="earth" interval="300" chance="90" length="8" spread="0" min="-119000" max="-129000">
+
+	</attack>
+            <attack name="Wrath of Nature" interval="1000" chance="50" target="0" radius="6" min="-123000" max="-130000">
+		
+	          <attribute key="areaEffect" value="eart"/>
+
+	</attack>
+	<attack name="Terra Strike" interval="1000" chance="90" target="1" min="-123000" max="-127051">
+	
+		<attribute key="areaEffect" value="eart"/>
+	
+	</attack>
+  </attacks>
+        <defenses>
+		<defense name="healing" interval="2000" chance="20" min="50000" max="60000"/>
+	</defenses>
+	<elements>
+	
+	<element earthPercent="80"/>
+</elements>
+
+	<script>
+
+<event name="world"/>
+</script>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="1"/>
+		<immunity ice="0"/>
+		<immunity holy="0"/>
+		<immunity death="0"/>
+		<immunity lifedrain="1"/>
+		<immunity manadrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

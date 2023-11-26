@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mary" script="data/npc/scripts/refine.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="152" head="0" body="144" legs="114" feet="7" addons="3"/>
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_sellable" value="escama de orshabaal,5909,50000000;escama de verminor,5910,70000000;escama de apocalypse,5912,80000000;escama de infernatil,5911,140000000;escama de bazir,5913,190000000;escama de castle master,5914,320000000"/>
+</parameters>
+</npc>

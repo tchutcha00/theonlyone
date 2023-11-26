@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Holy Angel" nameDescription="Holy Angel" race="undead" experience="0" speed="600" manacost="0">
+	<health now="1000000" max="1000000"/>
+        <look type="136" head="79" body="79" legs="79" feet="79" addons="0" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="20"/>
+                <flag skull="3"/>
+	</flags>
+	<attacks>
+		<attack name="holy" interval="300" chance="100" range="3" target="1" min="-600" max="-950">
+			<attribute key="shootEffect" value="smallholy"/>
+		</attack>
+	</attacks>
+	<elements>
+<element holyPercent="25"/>
+</elements>
+<script>
+    <event name="Efeito Pet"/>
+</script>
+</monster>

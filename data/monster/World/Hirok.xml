@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hirok" nameDescription="Hirok" race="blood" experience="0" speed="300" manacost="0">
+	<health now="3000000" max="3000000"/>
+  	<look type="12" head="81" body="85" legs="81" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="800" skill="150" attack="350"/>
+	
+            <attack name="physical" interval="1000" chance="60" length="10" spread="0" min="-16000" max="-17000">
+
+	</attack>
+            <attack name="Avalanche" interval="1500" chance="50" radius="5" target="0" min="-16000" max="-18000">
+			
+                     <attribute key="areaEffect" value="icearea"/>
+			
+            <attribute key="shootEffect" value="ice"/>
+
+	</attack>
+	<attack name="Poison Bomb" interval="2000" chance="50" target="0" radius="6" min="-13000" max="-18000">
+			
+                     <attribute key="areaEffect" value="poisonarea"/>
+	
+	</attack>
+           <attack name="Energy Field" interval="1100" chance="50" radius="4" target="0" min="-16550" max="-18000">
+			                    
+           </attack>
+  </attacks>
+<defenses>
+		<defense name="healing" interval="2000" chance="20" min="18000" max="24000"/>
+	</defenses>
+	<elements>
+	
+	<element energyPercent="80"/>
+</elements>
+
+	<script>
+
+<event name="world"/>
+</script>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

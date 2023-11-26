@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Energy Angel" nameDescription="Energy Angel" race="undead" experience="0" speed="600" manacost="0">
+	<health now="1000000" max="1000000"/>
+        <look type="128" head="110" body="110" legs="110" feet="110" addons="0" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="20"/>
+                <flag skull="3"/>
+	</flags>
+<script>
+    <event name="Efeito Pet"/>
+</script>
+	<attacks>
+		<attack name="energy" interval="300" chance="100" range="3" target="1" min="-600" max="-950">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+	</attacks>
+<elements>
+<element energyPercent="25"/>
+</elements>	
+</monster>

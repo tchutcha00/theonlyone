@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pickrodor" nameDescription="pickrodor" race="blood" experience="0" speed="1500" manacost="0">
+	<health now="10000" max="10000"/>
+  	<look type="147" head="101" body="101" legs="101" feet="101" corpse="6081" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="90" defense="120"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+<script>
+<event name="tpvara"/>
+</script>
+	<attacks>
+                <attack name="melee" interval="450" skill="70" attack="210"/>
+		<attack name="physical" interval="800" chance="100" range="7" radius="1" target="1" min="-790" max="-1200">
+			<attribute key="shootEffect" value="enchantedspear"/>
+		</attack>
+</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="1000" chance="100" min="600" max="800"/>
+	</defenses>
+<elements>
+<element holyPercent="-35"/>
+</elements>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

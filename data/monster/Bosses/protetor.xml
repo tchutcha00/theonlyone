@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Protetor" nameDescription="protetor" race="blood" experience="0" speed="1500" manacost="0">
+	<health now="50000" max="50000"/>
+  	<look type="131" head="58" body="77" legs="79" feet="0" corpse="3128" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="150"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="10" attack="4000"/>
+    <attack name="fire" interval="1000" chance="40" range="7" radius="7" target="1" min="-2000" max="-3000">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+  </attacks>
+        <defenses armor="75" defense="150">
+		<defense name="healing" interval="2000" chance="100" min="1200" max="1500"/>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

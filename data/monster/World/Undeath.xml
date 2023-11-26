@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Undeath" nameDescription="undeath" race="blood" experience="0" speed="1000" manacost="0">
+	<health now="8500000" max="8500000"/>
+  	<look type="12" head="92" body="92" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="500" skill="520" attack="850"/>
+    <attack name="manadrain" interval="2500" chance="13" range="7" min="114000" max="-120000"/>
+    <attack name="fire" interval="1000" chance="50" range="7" radius="7" target="1" min="-137000" max="-140000">
+		<attribute key="areaEffect"/>
+	</attack>
+    <attack name="lifedrain" interval="1000" chance="50" length="8" spread="0" min="-130000" max="-140000">
+	</attack>
+        <attack name="death" interval="1000" chance="50" target="1" speedchange="-117500" duration="120000">
+		<attribute key="shootEffect" value="suddendeath"/>
+	</attack>
+	<attack name="Death Strike" interval="1000" chance="50" min="-118500" max="-129500">
+	</attack>
+  </attacks>
+        <defenses>
+		<defense name="healing" interval="2000" chance="60" min="120000" max="140000"/>
+	</defenses>
+	<script>
+<event name="undeath"/>
+<event name="world"/>
+</script>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

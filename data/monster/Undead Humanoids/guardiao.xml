@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Guardiao" nameDescription="a Guardiao" race="blood" experience="0" speed="1500" manacost="0">
+	<health now="50000" max="50000"/>
+  	<look type="143" head="0" body="86" legs="114" feet="67" corpse="3128" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="90" defense="150"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="550" skill="40" attack="320"/>
+        </attacks>
+	<defenses armor="120" defense="120">
+		<defense name="healing" interval="5000" chance="100" min="250" max="500"/>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

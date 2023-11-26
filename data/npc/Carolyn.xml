@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Carolyn" script="data/npc/scripts/info141.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="149" head="79" body="77" legs="77" feet="77" addons="3"/>
+</npc>

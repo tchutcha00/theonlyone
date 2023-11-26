@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mercenarie" nameDescription="mercenarie" race="blood" experience="0" speed="1000" manacost="0">
+	<health now="20000" max="20000"/>
+  	<look type="142" head="0" body="85" legs="107" feet="0" corpse="3128" addons="0"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="90" defense="150"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+<attacks>
+		<attack name="melee" interval="550" skill="80" attack="100"/>
+		</attacks>
+        <defenses armor="80" defense="80">
+		<defense name="healing" interval="6000" chance="60" min="430" max="620"/>
+	</defenses>
+<elements>
+<element firePercent="5"/>
+<element energyPercent="5"/>
+<element deathPercent="5"/>
+<element physicalPercent="5"/>
+<element holyPercent="5"/>
+<element icePercent="5"/>
+<element earthPercent="5"/>
+</elements>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+	</voices>
+	<loot capacity="900">
+<item id="6527" countmax="1" chance="10000"/>
+		<item id="2148" countmax="30" chance="70000"/>
+		<item id="2148" countmax="70" chance="50000"/>
+	</loot>
+</monster>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Margie" script="data/npc/scripts/infoinvasoes.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="142" head="82" body="94" legs="88" feet="92" addons="3"/>
+</npc>

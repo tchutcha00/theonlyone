@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draug Angel" nameDescription="Draug Angel" race="undead" experience="0" speed="500" manacost="0">
+	<health now="250000" max="250000"/>
+        <look type="142" head="0" body="76" legs="76" feet="0" addons="2" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="20"/>
+                <flag skull="5"/>
+	</flags>
+	<attacks>
+                     <attack name="death" interval="1000" chance="100" range="3" target="1" min="-1300" max="-1900">
+			<attribute key="shootEffect" value="suddendeath"/>
+                      </attack>
+                   
+	</attacks>
+	<elements>
+<element firePercent="20"/>
+<element energyPercent="20"/>
+<element deathPercent="20"/>
+<element physicalPercent="20"/>
+<element holyPercent="20"/>
+<element icePercent="20"/>
+<element earthPercent="20"/>
+</elements>
+<script>
+    <event name="Efeito Pet"/>
+</script>
+</monster>

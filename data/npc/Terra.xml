@@ -1,0 +1,4 @@
+<npc name="Terra" walkinterval="10000" floorchange="0">
+	<health now="100" max="100"/>
+        <look type="150" head="0" body="120" legs="120" feet="0" addons="3" corpse="6080"/>
+</npc>

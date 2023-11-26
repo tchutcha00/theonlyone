@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hungrez" nameDescription="hungrez" race="blood" speed="900" manacost="0">
+	<health now="8000000" max="8000000"/>
+  	<look type="12" head="112" body="79" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+         <attacks>
+	 <attack name="melee" interval="1000" skill="390" attack="800"/>
+    <attack name="great fireball" interval="1000" chance="80" range="7" radius="7" target="1" min="-130000" max="-144000">
+		<attribute key="areaEffect"/>
+	</attack>
+    <attack name="Ice Strike" interval="2700" chance="90" range="7" target="1" min="-130000" max="-136000">
+		<attribute key="shootEffect" value="ice"/>
+        </attack>
+	<attack name="Thunder" interval="2500" chance="70" target="1" speedchange="-120050" duration="126000">
+		<attribute key="shootEffect" value="suddendeath"/>
+	</attack>
+  </attacks>
+        <defenses>
+		<defense name="healing" interval="2000" chance="70" min="70000" max="90000"/>
+	</defenses>
+<elements>
+<element firePercent="0"/>
+<element energyPercent="0"/>
+<element deathPercent="0"/>
+<element physicalPercent="72"/>
+<element holyPercent="0"/>
+<element icePercent="0"/>
+<element earthPercent="0"/>
+</elements>
+	<script>
+
+<event name="world"/>
+</script>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+</monster>

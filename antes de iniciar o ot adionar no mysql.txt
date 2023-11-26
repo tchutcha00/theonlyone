@@ -1,0 +1,10 @@
+ALTER TABLE `accounts` ADD `p_points` INTEGER NOT NULL DEFAULT 0
+
+ALTER TABLE `accounts` ADD `z_points` INTEGER NOT NULL DEFAULT 0
+
+ALTER TABLE `accounts` ADD `c_points` INTEGER NOT NULL DEFAULT 0
+
+
+
+
+UPDATE players SET lookbody =0, lookfeet =0, lookhead =0, looktype =128

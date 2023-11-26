@@ -1,0 +1,9 @@
+<npc name="Donna [Items]" script="data/npc/scripts/info.lua" walkinterval="0" floorchange="0" direction="north">
+	<health now="100" max="100"/>
+	<look type="141" head="94" body="128" legs="90" feet="132" addons="3"/>
+	<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu tenho alguns items basicos para iniciantes diga {negociar} ou {trade} !." />
+<parameter key="shop_buyable" value="crystal staff,2184,300000;crystal arrow,2352,300000;stomper,8929,300000;calamity,8932,300000;solar axe,8925,300000;stone skin amulet,2197,150000;coconut shoes,9931,100000"/>
+</parameters>
+</npc>

@@ -1,0 +1,287 @@
+﻿----- 27/5/2018 0:48:47 - Hinode (177.33.188.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-3
+Video Card: Intel (R) HD GR
+Last Packet Types: 131 131 132 180 180 180 180 180 180 180
+Last Packet: 180 026 039 000 089 111 117 032 099 097 110 110 111 116 032 097
+Player Position: [1085,1092,7]
+Player Name: Hinode (The World Kronos)
+Player Action: 049 057 049 046 049 057 048 046 049 051 056 046 050 050 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 8F7F48 MoW: 21DF638), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1559: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 803: exception occurred, reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 082C6EE8)
+Sun May 27 00:41:34 2018
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 27/5/2018 3:22:14 - Charzatyz (177.33.188.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-3
+Video Card: Intel (R) HD GR
+Last Packet Types: 113 131 131 132 180 105 109 180 106 113
+Last Packet: 180 025 033 000 085 115 105 110 103 032 116 104 101 032 108 097
+Player Position: [1100,1158,7]
+Player Name: Charzatyz (The World Kronos)
+Player Action: 049 057 049 046 049 057 048 046 049 051 056 046 050 050 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 231EDB0 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 00000044)
+Sun May 27 03:21:57 2018
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 13/10/2018 13:9:39 - Veigar (201.75.171.95) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-2
+Video Card: Intel (R) HD GR
+Last Packet Types: 020 031 020 031 020 031 020 031 020 031
+Last Packet: 020 054 000 071 097 109 101 119 111 114 108 100 032 105 115 032
+Player Position: [1037,993,7]
+Player Name: Leona (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+MainFrm.cpp 508: exception occurred (nIDEvent = 1), reason:
+Control.cpp 1437: exception occurred, reason:
+GUI.cpp 1033: exception occurred (i = 0), reason:
+GUI.cpp 1093: exception occurred (elapsed = 87), reason:
+GUI.cpp 2090: exception occurred, reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 003A7375)
+Sat Oct 13 00:16:55 2018
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 13/10/2018 16:22:21 - Veigar (201.75.171.95) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-2
+Video Card: Intel (R) HD GR
+Last Packet Types: 105 106 108 131 106 131 131 132 180 180
+Last Packet: 108 071 004 142 004 007 002 106 070 004 142 004 007 002 219 011
+Player Position: [1095,1166,7]
+Player Name: Veigar (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Sat Oct 13 15:54:03 2018
+Debug Assertion 8.60 Network.cpp 921
+
+----- 22/10/2018 19:58:43 - Lara (189.4.73.253) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Celeron N2920 @ 1
+Video Card: Intel (R) HD GR
+Last Packet Types: 180 180 180 131 131 132 180 030 162 180
+Last Packet: 180 025 026 000 085 115 105 110 103 032 116 104 101 032 108 097
+Player Position: [1093,1099,7]
+Player Name: Aninha (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Mon Oct 22 19:58:15 2018
+Debug Assertion 8.60 Network.cpp 921
+
+----- 22/10/2018 19:58:43 - Diabo (201.75.171.95) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Core i5 -3470 @ 3
+Video Card: NVIDIA GeForce GTX 750
+Last Packet Types: 160 106 114 180 180 180 131 131 132 180
+Last Packet: 180 025 026 000 085 115 105 110 103 032 116 104 101 032 108 097
+Player Position: [1094,1101,7]
+Player Name: Diabo (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Mon Oct 22 19:58:21 2018
+Debug Assertion 8.60 Network.cpp 921
+
+----- 22/10/2018 20:1:19 - Jukes (201.75.171.95) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-2
+Video Card: Intel (R) HD GR
+Last Packet Types: 131 131 132 131 113 131 131 132 180 131
+Last Packet: 132 069 004 075 004 007 180 008 000 032 070 065 076 072 079 085
+Player Position: [1095,1099,7]
+Player Name: Jukes (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Mon Oct 22 19:58:20 2018
+Debug Assertion 8.60 Network.cpp 921
+
+----- 18/11/2018 15:39:12 - Lighhtznny (177.39.208.155) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Dual Core Intel Pentium E5200 @ 2
+Video Card: Intel (R) G33/G
+Last Packet Types: 109 144 144 160 131 109 144 144 131 170
+Last Packet: 144 205 009 000 016 000 144 205 009 000 016 000 109 066 004 052
+Player Position: [1092,1082,7]
+Player Name: Lighhtznny (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 1907F58 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (write attempt at 4E9EB4B1)
+Sun Nov 18 15:39:05 2018
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 22/11/2018 15:6:13 - Poslek (177.193.228.220) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Atom X5-Z8350 
+Video Card: Intel (R) HD GR
+Last Packet Types: 109 162 109 108 109 106 109 108 109 109
+Last Packet: 109 129 004 006 004 007 001 128 004 006 004 007 000 000 000 000
+Player Position: [1159,1029,7]
+Player Name: Poslek (Theonlyone)
+Player Action: 049 055 055 046 056 051 046 055 050 046 053 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 2AC7F58 MoW: 287F650), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (write attempt at 4EA5B4A9)
+Thu Nov 22 15:06:12 2018
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 23/11/2018 16:24:26 - Poslek (177.193.228.220) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Atom X5-Z8350 
+Video Card: Intel (R) HD GR
+Last Packet Types: 131 180 131 180 131 180 131 180 131 180
+Last Packet: 180 026 018 000 089 111 117 032 097 114 101 032 101 120 104 097
+Player Position: [3288,281,13]
+Player Name: Iho Aka Spearz (Offline)
+Player Action: 049 054 055 046 049 049 052 046 050 048 049 046 049 049 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Fri Nov 23 02:03:18 2018
+Debug Assertion 8.60 Network.cpp 921
+
+----- 14/5/2022 17:43:31 - Mlk Liso (177.138.153.163) -----
+Debug Assertion 8.60 Communication.cpp 2792
+Sat May 14 17:42:59 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: AMD RYZEN 3 3
+Video Card: NVIDIA GeForce GTX 1050 TI
+Last Packet Types: 170 162 144 109 132 180 131 106 108 140
+Last Packet: 144 004 000 000 016 000 162 000 000 170 000 000 000 000 010 000
+Player Position: [1100,1070,7]
+Player Name: Necrophary (Animus)
+Player Action: 049 055 055 046 049 053 051 046 053 057 046 049 055 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 170) (MainWindow = 41561520), reason:
+Communication.cpp 2798: exception occurred (Mode = 0) (Channel = 0), reason:
+Communication.cpp 2792: unknown talk mode (Mode = 0), reason:
+[bug0000649]
+Comment: 
+
+----- 14/5/2022 21:10:0 - Teste (177.138.153.163) -----
+Debug Assertion 8.60 Network.cpp 921
+Sat May 14 21:09:13 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: AMD RYZEN 3 3
+Video Card: NVIDIA GeForce GTX 1050 TI
+Last Packet Types: 030 131 131 131 131 131 131 131 131 131
+Last Packet: 030 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000
+Player Position: [1048,987,7]
+Player Name: Teste (The Onlyone)
+Player Action: 049 055 055 046 049 053 051 046 053 057 046 049 055 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+
+
+----- 14/5/2022 22:0:21 - Juqdt (201.182.187.144) -----
+Debug Assertion 8.60 Communication.cpp 2792
+Sat May 14 21:59:52 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Quad Core AMD FX -4300
+Video Card: ATI Radeon RX550/550
+Last Packet Types: 170 143 180 180 160 160 160 160 160 160
+Last Packet: 010 012 000 000 016 050 000 000 100 071 004 039 004 007 243 001
+Player Position: [1095,1063,7]
+Player Name: Juqdt (The Onlyone)
+Player Action: 049 055 055 046 049 053 051 046 053 057 046 049 055 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 170) (MainWindow = 40664920), reason:
+Communication.cpp 2798: exception occurred (Mode = 0) (Channel = 0), reason:
+Communication.cpp 2792: unknown talk mode (Mode = 0), reason:
+[bug0000649]
+Comment: 
+
+----- 14/5/2022 23:1:55 - Mlk Liso (177.138.153.163) -----
+Debug Assertion 8.60 Communication.cpp 2792
+Sat May 14 22:37:13 2022
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: AMD RYZEN 3 3
+Video Card: NVIDIA GeForce GTX 1050 TI
+Last Packet Types: 170 180 160 133 131 132 180 131 140 140
+Last Packet: 180 022 035 000 089 111 117 032 097 100 118 097 110 099 101 100
+Player Position: [1045,993,7]
+Player Name: Teste (The Onlyone)
+Player Action: 049 055 055 046 049 053 051 046 053 057 046 049 055 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 170) (MainWindow = 41452384), reason:
+Communication.cpp 2798: exception occurred (Mode = 0) (Channel = 0), reason:
+Communication.cpp 2792: unknown talk mode (Mode = 0), reason:
+[bug0000649]
+Comment: 
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Light Wizard" nameDescription="Light Wizard" race="undead" speed="800" manacost="0">
+	<health now="320000" max="320000"/>
+        <look type="133" head="79" body="81" legs="94" feet="0" addons="1" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+           <flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+                <attack name="melee" interval="1000" min="-1500" max="-1800"/>
+		<attack name="Icebolt" interval="2000" chance="80" range="7" radius="7" target="1" min="-1600" max="-1900">
+		<attribute key="areaEffect"/>
+	          </attack>               
+	</attacks>
+	<defenses armor="80" defense="80">
+		<defense name="healing" interval="6000" chance="60" min="2530" max="3620"/>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+	</voices>
+	<loot capacity="900">
+		<item id="2152" countmax="100" chance="120000"/>
+                <item id="2152" countmax="100" chance="120000"/>
+	</loot>
+</monster>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="login" name="FirstItems" event="script" value="firstitems.lua"/>
+	<event type="login" name="StartSkills" event="script" value="startskills.lua"/>
+        <event type="death" name="teleportmonster" script="teleportmonster.lua"/>
+        
+        <event type="death" name="tpvara" script="tpvara.lua"/>
+        <event type="login" name="AntiMb" event="script" value="antimb.lua"/>
+        <event type="login" name="playercheck" script="playercheck.lua"/>
+        <event type="look" name="CheckStorage" event="script" value="checkstorage.lua"/> 
+	<event type="login" name="Lowlevellock" event="script" value="lowlevellock.lua"/>
+	
+	<event type="advance" name="hmup" event="script" value="hmup.lua"/>
+        
+        <event type="look" name="PlayerInfo" event="script" value="playerinfo.lua"/>
+        <event type="kill" name="Drop_info" script="lootdefault.lua"/>
+        <event type="login" name="MutePlayer" event="script" value="mute_check.lua"/>
+        <event type="combat" name="ItemNoPvp" event="script" value="nopvpitem.lua"/>
+        <event type="think" name="Effect" event="script" value="effect.lua"/>
+        <event type="death" name="KillerBoss" event="script" value="BossXtibia.lua"/>
+        <event type="think" name="Efeito Pet" event="script" value="Efeito Pet.lua"/>
+
+         
+         <event type="attack" name="attackguild" script="attackguild.lua"/>
+         <event type="combat" name="dodge" event="script" value="dodge.lua"/>
+
+         <event type="login" name="RTopFrags" event="script" value="topfrags.lua" />
+        <event type="death" name="arenator" event="script" value="Arenator.lua"/>
+	
+		<event type="death" name="agorak" event="script" value="world/Agorak.lua"/>
+		<event type="death" name="hirok" event="script" value="world/Hirok.lua"/>
+		<event type="death" name="gorgo" event="script" value="world/gorgo.lua"/>
+		<event type="death" name="kritor" event="script" value="world/Kritor.lua"/>
+		<event type="death" name="pitos" event="script" value="world/Pitos.lua"/>
+		<event type="death" name="Emalak" event="script" value="world/Emalak.lua"/>
+		<event type="death" name="undeath" event="script" value="world/Undeath.lua"/>
+		<event type="death" name="hungrez" event="script" value="world/Hungrez.lua"/>
+		<event type="death" name="movek" event="script" value="world/Movek.lua"/>
+<event type="advance" name="MaxLevel" event="script" value="levelmax.lua"/>
+	<event type="login" name="reb" event="script" value="levelrebalance.lua" />
+
+             
+        
+
+
+     
+
+
+
+
+
+        <event type="look" name="dungeon1" event="script" value="dungeon/dungeon1.lua"/>
+        <event type="look" name="dungeon2" event="script" value="dungeon/dungeon2.lua"/>
+        <event type="look" name="dungeon3" event="script" value="dungeon/dungeon3.lua"/>
+        <event type="look" name="dungeon4" event="script" value="dungeon/dungeon4.lua"/>
+        <event type="look" name="ghazbaransnow" event="script" value="ghazbaran/ghazbaransnow.lua"/>
+        <event type="look" name="ghazbaranrod" event="script" value="ghazbaran/ghazbaranrod.lua"/>
+        <event type="look" name="morgarothwand" event="script" value="ghazbaran/morgarothwand.lua"/>
+        <event type="look" name="morgarothaxe" event="script" value="ghazbaran/morgarothaxe.lua"/>
+        <event type="look" name="morgarothsword" event="script" value="ghazbaran/morgarothsword.lua"/>
+        <event type="look" name="morgarothhammer" event="script" value="ghazbaran/morgarothhammer.lua"/>
+        
+        <event type="look" name="look1" event="script" value="look1.lua"/>
+        <event type="look" name="look2" event="script" value="look2.lua"/>
+        <event type="look" name="look3" event="script" value="look3.lua"/>
+        <event type="look" name="look4" event="script" value="look4.lua"/>
+        <event type="look" name="look5" event="script" value="look5.lua"/>
+
+        <event type="look" name="anihi1" event="script" value="anihi1.lua"/>
+        <event type="look" name="anihi2" event="script" value="anihi2.lua"/>
+        <event type="look" name="anihi3" event="script" value="anihi3.lua"/>
+        <event type="look" name="anihi4" event="script" value="anihi4.lua"/>
+        <event type="look" name="anihi5" event="script" value="anihi5.lua"/>
+
+        <event type="look" name="fer1" event="script" value="fer1.lua"/>
+        <event type="look" name="fer2" event="script" value="fer2.lua"/>
+        <event type="look" name="fer3" event="script" value="fer3.lua"/>
+        <event type="look" name="fer4" event="script" value="fer4.lua"/>
+        <event type="look" name="fer5" event="script" value="fer5.lua"/>
+        <event type="look" name="booktemplo" event="script" value="booktemplo.lua"/>
+     
+        <event type="look" name="apoca1" event="script" value="apoca1.lua"/>
+        <event type="look" name="apoca2" event="script" value="apoca2.lua"/>
+        <event type="look" name="apoca3" event="script" value="apoca3.lua"/>
+        <event type="look" name="apoca4" event="script" value="apoca4.lua"/>
+        <event type="look" name="apoca5" event="script" value="apoca5.lua"/>
+        <event type="look" name="apoca6" event="script" value="apoca6.lua"/>
+
+        <event type="look" name="verm1" event="script" value="verm1.lua"/>
+        <event type="look" name="verm2" event="script" value="verm2.lua"/>
+        <event type="look" name="verm3" event="script" value="verm3.lua"/>
+        <event type="look" name="verm4" event="script" value="verm4.lua"/>
+        <event type="look" name="verm5" event="script" value="verm5.lua"/>
+        <event type="look" name="verm6" event="script" value="verm6.lua"/>
+
+        <event type="look" name="infer1" event="script" value="infer1.lua"/>
+        <event type="look" name="infer2" event="script" value="infer2.lua"/>
+        <event type="look" name="infer3" event="script" value="infer3.lua"/>
+        <event type="look" name="infer4" event="script" value="infer4.lua"/>
+        <event type="look" name="infer5" event="script" value="infer5.lua"/>
+        <event type="look" name="infer6" event="script" value="infer6.lua"/>
+
+        <event type="look" name="bazir1" event="script" value="bazir1.lua"/>
+        <event type="look" name="bazir2" event="script" value="bazir2.lua"/>
+        <event type="look" name="bazir3" event="script" value="bazir3.lua"/>
+        <event type="look" name="bazir4" event="script" value="bazir4.lua"/>
+        <event type="look" name="bazir5" event="script" value="bazir5.lua"/>
+        <event type="look" name="bazir6" event="script" value="bazir6.lua"/>
+
+        <event type="look" name="master1" event="script" value="master1.lua"/>
+        <event type="look" name="master2" event="script" value="master2.lua"/>
+        <event type="look" name="master3" event="script" value="master3.lua"/>
+        <event type="look" name="master4" event="script" value="master4.lua"/>
+        <event type="look" name="master5" event="script" value="master5.lua"/>
+        <event type="look" name="master6" event="script" value="master6.lua"/>
+
+        <event type="look" name="arrow1" event="script" value="arrow1.lua"/>
+        <event type="look" name="arrow2" event="script" value="arrow2.lua"/>
+        <event type="look" name="arrow3" event="script" value="arrow3.lua"/>
+        <event type="look" name="arrow4" event="script" value="arrow4.lua"/>
+        <event type="look" name="axe" event="script" value="axe.lua"/>
+        <event type="look" name="sword" event="script" value="sword.lua"/>
+        <event type="look" name="club" event="script" value="club.lua"/>
+        <event type="look" name="spear" event="script" value="spear.lua"/>
+        <event type="look" name="staff" event="script" value="staff.lua"/>
+
+
+        <event type="combat" name="PartyAttack" event="script" value="party.lua"/>
+        <event type="death" name="DeathBroadcast" event="script" value="deathBroadcast.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+        <event type="advance" name="Playeradvance" event="script" value="uplevel.lua"/>
+        <event type="advance" name="142" event="script" value="142.lua"/>
+        <event type="advance" name="up1" event="script" value="up1.lua"/>
+        <event type="advance" name="up2" event="script" value="up2.lua"/>
+        <event type="advance" name="up3" event="script" value="up3.lua"/>
+        <event type="advance" name="up4" event="script" value="up4.lua"/>
+        <event type="advance" name="up5" event="script" value="up5.lua"/>
+        <event type="advance" name="up6" event="script" value="up6.lua"/>
+        <event type="login" name="fragl" event="script" value="gardenal.lua"/>
+        <event type="attack" name="WeaponPar" event="script" value="weaponpar.lua"/>
+        <event type="advance" name="upgain" event="script" value="upgain.lua"/>
+        <event type="kill" name="fragk" event="script" value="gardenal.lua"/>
+        <event type="death" name="ProtectLevel" event="script" value="ProtectLevel.lua"/> 
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+        <event type="advance" name="Recompensa" script="recompensa.lua"/>
+        <event type="death" name="tp" event="script" value="tp.lua"/>
+
+        <event type="advance" name="Fullmh" event="script" value="fullmh.lua"/>
+        <event type="death" name="last" event="script" value="last.lua"/>
+		<event type="statschange" name="floresta" event="script" value="floresta.lua"/>
+		<event type="death" name="world" event="script" value="eventboss.lua"/>
+		<event type="combat" name="world2" event="script" value="eventboss.lua"/>
+        <event type="statschange" name="zombieevent" event="script" value="zombie event.lua"/>
+        <event type="statschange" name="phantasmevent" event="script" value="phantasm event.lua"/>
+		<event type="kill" name="doubleBonus" event="script" value="doubleloot.lua"/>
+        
+ 
+
+</creaturescripts>

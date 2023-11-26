@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+<globalevent name="save" interval="240000" event="script" value="save.lua"/>
+<globalevent name="clean" interval="3660000" event="script" value="clean.lua"/>
+        <event type="death" name="teleportmonster" script="tpmonster.lua"/> 
+        <globalevent name="Summon" interval="0" event="script" value="summon.lua"/>
+        <globalevent name="teleports" interval="1600" script="falante.lua"/>
+		<globalevent name="msg" interval="1600" script="falante4.lua"/>
+        <globalevent name="shop" interval="1600" script="shop.lua"/>
+
+        <globalevent name="teleporta" interval="1600" script="falante2.lua"/>
+        <globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+              
+        <globalevent name="zombie event" time="15:00:01" event="script" value="zombie event.lua"/>                 
+        <globalevent name="zombie event1" time="16:00:02" event="script" value="zombie event.lua"/>        
+        <globalevent name="zombie event2" time="17:00:03" event="script" value="zombie event.lua"/>        
+        <globalevent name="zombie event3" time="18:00:04" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event4" time="19:00:05" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event5" time="20:00:06" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event6" time="21:03:07" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event7" time="22:00:08" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event8" time="23:00:09" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event9" time="01:00:10" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event10" time="02:00:11" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event11" time="03:00:12" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event12" time="04:00:13" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event13" time="05:00:14" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event14" time="06:00:15" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event15" time="07:00:16" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event16" time="08:00:17" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event17" time="09:00:18" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event18" time="10:00:19" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event19" time="11:00:20" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event20" time="13:00:21" event="script" value="zombie event.lua"/>
+		<globalevent name="zombie event21" time="14:00:22" event="script" value="zombie event.lua"/>
+		
+        <globalevent name="world2" time="22:25:20" event="script" value="world2.lua"/>
+
+      
+
+       
+        <globalevent name="phantasm event" time="10:20:01" event="script" value="Phantasm event.lua"/>      
+        <globalevent name="phantasm event1" time="15:20:02" event="script" value="Phantasm event.lua"/>
+        <globalevent name="phantasm event2" time="19:20:03" event="script" value="Phantasm event.lua"/>
+        <globalevent name="phantasm event3" time="23:20:04" event="script" value="Phantasm event.lua"/>
+  
+        <globalevent name="floresta" time="07:50:02" event="script" value="floresta.lua"/>
+        <globalevent name="florestagatesdentro" time="07:52:03" event="script" value="florestagatesdentro.lua"/>
+
+        <globalevent name="floresta1" time="15:30:02" event="script" value="floresta.lua"/>
+        <globalevent name="florestagatesdentro1" time="15:32:03" event="script" value="florestagatesdentro.lua"/>
+
+        <globalevent name="floresta2" time="20:23:02" event="script" value="floresta.lua"/>
+        <globalevent name="florestagatesdentro2" time="20:25:03" event="script" value="florestagatesdentro.lua"/>
+
+        <globalevent name="floresta3" time="22:50:02" event="script" value="floresta.lua"/>
+        <globalevent name="florestagatesdentro3" time="22:52:03" event="script" value="florestagatesdentro.lua"/>
+
+        
+
+        <globalevent name="ferumbras" time="19:19:00" event="script" value="ferumbras.lua"/> 
+        <globalevent name="ghazbaran" time="10:47:02" event="script" value="ghazbaran.lua"/>
+        <globalevent name="morgaroth" time="10:03:02" event="script" value="morgaroth.lua"/>  
+</globalevents>

@@ -1,0 +1,9 @@
+<npc name="Mary" script="data/npc/scripts/refinamento.lua" walkinterval="2000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="156" head="94" body="107" legs="95" feet="79" addons="2" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Diga {trade} ou {negociar} para vender pedras de refinamento." />
+		<parameter key="shop_sellable" value="pedra refinadora nivel 1,8298,100;pedra refinadora nivel 2,8299,200;pedra refinadora nivel 3,8301,300; pedra refinadora nivel 4,8302,400; pedra refinadora niveis 5,8303,500"/>
+	</parameters>
+</npc>

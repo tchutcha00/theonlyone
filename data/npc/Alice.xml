@@ -1,0 +1,7 @@
+<npc name="Alice" script="data/npc/scripts/vara.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="137" head="94" body="88" legs="94" feet="81" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou Alice, diga {courage} para evoluir o nivel de defesa de seu personagem!"/>
+	</parameters>
+</npc>

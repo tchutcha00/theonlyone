@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exterminator" nameDescription="exterminator" race="blood" experience="0" speed="4000" manacost="0">
+	<health now="60000" max="60000"/>
+  	<look type="268" head="0" body="91" legs="105" feet="0" corpse="3128" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="550" skill="80" attack="570"/>
+		</attacks>
+	<defenses armor="90" defense="90">
+		<defense name="healing" interval="5000" chance="60" min="500" max="900"/>
+	</defenses>
+<elements>
+<element firePercent="20"/>
+<element energyPercent="20"/>
+<element deathPercent="20"/>
+<element physicalPercent="20"/>
+<element holyPercent="20"/>
+<element icePercent="20"/>
+<element earthPercent="20"/>
+</elements>
+        <immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+	</voices>
+	<loot capacity="900">
+<item id="6527" countmax="1" chance="10000"/>
+                <item id="2148" countmax="15" chance="700000"/>
+	       <item id="2148" countmax="30" chance="500000"/>
+	</loot>
+</monster>

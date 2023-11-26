@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eliza" script="data/npc/scripts/intelligence.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="138" head="82" body="77" legs="85" feet="79" addons="3"/>
+ <parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou Eliza, diga {intelligence} para evoluir o aumento da eficacia de perolas."/>
+	</parameters>
+    
+</npc>

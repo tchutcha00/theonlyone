@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Emily" script="data/npc/scripts/lucky.lua" walkinterval="3000">
+ 	
+<health now="150" max="150"/>
+	
+<look type="148" head="91" body="85" legs="91" feet="79" corpse="2212" addons="3"/>
+	
+  <parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou Emily, diga {lucky} para evoluir o aumento de chance para dropar loots e a quantidade."/>
+	</parameters>
+    
+</npc>

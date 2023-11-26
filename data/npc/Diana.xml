@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Diana" script="data/npc/scripts/infogeral.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="141" head="91" body="82" legs="77" feet="94" addons="3"/>
+</npc>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Apocalypse" nameDescription="apocalypse" race="blood" experience="0" speed="200" manacost="0">
+	<health now="4500000" max="4500000"/>
+  	<look type="12" head="86" body="86" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="10" attack="5500"/>
+	
+            <attack name="physical" interval="1000" chance="50" length="10" spread="0" min="-15000" max="-19000">
+
+	</attack>
+            <attack name="Avalanche" interval="1000" chance="50" radius="5" target="0" min="-17000" max="-19000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+			
+            <attribute key="shootEffect" value="ice"/>
+
+	</attack>
+	<attack name="ice" interval="1000" chance="50" target="0" radius="6" min="-14000" max="-19000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+	
+	</attack>
+           <attack name="Energy Strike" interval="1000" chance="50" radius="4" target="0" min="-11550" max="-16000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+
+           </attack>
+  </attacks>
+<defenses>
+		<defense name="healing" interval="2000" chance="40" min="70000" max="85000"/>
+	</defenses>
+	<elements>
+	
+	<element energyPercent="80"/>
+</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot capacity="900">
+		<item id="2152" countmax="100" chance="25000"/><!-- Crystal coin -->
+		<item id="2152" countmax="80" chance="25000"/><!-- Crystal coin -->
+		<item id="2152" countmax="100" chance="25000"/><!-- Crystal coin -->
+		<item id="2152" countmax="100" chance="25000"/><!-- Crystal coin -->	
+                <item id="2152" countmax="50" chance="25000"/><!-- Crystal coin -->
+                <item id="6543" countmax="50" chance="25000"/><!-- Ice pet -->
+
+                    
+                      <item id="5912" countmax="1" chance="2"/><!-- escama de apocalypse -->
+                      <item id="2090" countmax="1" chance="2"/><!-- chave -->
+
+        
+                     <item id="10521" chance="100000"><!-- bag -->
+		<inside>
+                     <item id="2471" countmax="1" chance="1"/><!-- golden helmet -->
+                     <item id="6548" countmax="1" chance="1"/><!-- castle health gem -->
+                     <item id="6547" countmax="1" chance="1"/><!-- castle spirit gem -->
+                     <item id="6549" countmax="1" chance="1"/><!-- castle mana gem -->
+                     <item id="2466" countmax="1" chance="1"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="1"/><!-- golden legs -->
+                     <item id="8879" countmax="1" chance="1"/><!-- voltage armor -->
+                     <item id="8889" countmax="1" chance="1"/><!-- skullcracker armor -->
+                     <item id="8880" countmax="1" chance="1"/><!-- swamplair armor -->
+                     <item id="8892" countmax="1" chance="1"/><!-- ethno coat -->
+                     <item id="8890" countmax="1" chance="1"/><!-- robe of the underworld -->
+                     <item id="8886" countmax="1" chance="1"/><!-- molten plate -->
+                     <item id="8884" countmax="1" chance="1"/><!-- oceanborn leviathan armor -->
+                     <item id="8891" countmax="1" chance="1"/><!-- paladin armor -->
+                     <item id="2472" countmax="1" chance="1"/><!-- magic plate armor -->
+                     <item id="2487" countmax="1" chance="1"/><!-- crown armor -->
+                     <item id="2476" countmax="1" chance="1"/><!-- knight armor -->
+                     <item id="8881" countmax="1" chance="1"/><!-- fireborn giant armor -->
+                     <item id="8883" countmax="1" chance="1"/><!-- windborn colossus armor -->
+                     <item id="8882" countmax="1" chance="1"/><!-- earthborn titan armor -->
+                     <item id="8888" countmax="1" chance="1"/><!-- master archer's armor -->
+                     <item id="8885" countmax="1" chance="1"/><!-- divine plate -->
+                     <item id="8871" countmax="1" chance="1"/><!-- focus cape -->
+                     <item id="8867" countmax="1" chance="1"/><!-- dragon robe -->
+                     <item id="8866" countmax="1" chance="1"/><!-- serpent coat -->
+                     <item id="8868" countmax="1" chance="1"/><!-- velvet mantle -->
+                     <item id="12764" countmax="1" chance="1"/><!-- royal scale robe -->
+                     <item id="8869" countmax="1" chance="1"/><!-- greenwood coat -->
+
+
+                     <item id="2493" countmax="1" chance="1"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="1"/><!-- demon armor -->
+                     <item id="2495" countmax="1" chance="1"/><!-- demon leges -->
+
+
+                     <item id="2506" countmax="1" chance="1"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="1"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="1"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="1"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="1"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="1"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="1"/><!-- magician hat -->
+                     <item id="2656" countmax="1" chance="1"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="1"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="1"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="1"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="1"/><!-- yalahari mask -->
+
+                     
+                    <item id="2433" countmax="1" chance="1"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="1"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="1"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="1"/><!-- flame blade -->
+                     <item id="8854" countmax="1" chance="1"/><!-- warsinger bow -->
+					 <item id="10944" countmax="1" chance="1"/><!-- promotion -->
+
+
+                     <item id="8901" countmax="1" chance="1"/><!-- spellbook of warding -->
+                     <item id="2523" countmax="1" chance="1"/><!-- blessed shield -->
+                     
+                        </inside>
+
+                     </item>
+	</loot>
+</monster>

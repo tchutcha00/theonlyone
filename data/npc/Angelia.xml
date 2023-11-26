@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Angelia" script="data/npc/scripts/infofusao.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="150" head="79" body="81" legs="79" feet="85" addons="3"/>
+</npc>

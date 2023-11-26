@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Treiner" nameDescription="a treiner" race="blood" experience="0" speed="1000000000" manacost="0">
+    <health now="1000000" max="1000000"/>
+    <look type="268" head="114" body="114" legs="114" feet="114" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="1000" min="0" max="-5"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+      <defense name="healing" interval="10000" chance="100" min="1000000" max="1000000"/>
+    </defenses>
+  <elements>
+	<element deathPercent="50"/>
+	<element holyPercent="50"/>
+	<element physicalPercent="50"/>
+	<element firePercent="50"/>
+	<element energyPercent="50"/>
+	<element icePercent="50"/>
+	<element earthPercent="50"/>
+	<element drowPercent="50"/>
+  </elements>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+    </voices>
+    <loot>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    </loot>
+  </monster>

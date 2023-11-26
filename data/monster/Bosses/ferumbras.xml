@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ferumbras" nameDescription="Ferumbras" race="venom" experience="800000" speed="280" manacost="0">
+	<health now="1000000" max="1000000"/>
+	<look type="229" corpse="6078"/>
+	<targetchange interval="5000" chance="90"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="2500"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-4000" max="-5000"/>
+	        <attack name="Divine Missile" interval="2000" chance="75" range="6" min="-8500" max="-12800">
+	
+		        <attribute key="shootType" value="Holy"/>
+	
+		</attack>
+	        <attack name="Flame Strike" interval="2000" chance="55" range="6" min="-7500" max="-10000">
+	
+		        <attribute key="shootType" value="fire"/>
+	
+	        </attack>
+		<attack name="Energy Wave" interval="2000" chance="48" length="5" spread="0" min="-12050" max="-15000">
+			<attribute key="shootType" value="greenspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="100" defense="120">
+		<defense name="healing" interval="2000" chance="50" min="10000" max="20000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="invisible" interval="3500" chance="2" duration="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="1"/>
+	</elements>
+	<script>
+<event name="loot"/>
+</script>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="20000" chance="20">
+		<voice sentence="" yell="1"/>
+	</voices>
+        <loot>
+                <item id="5903" chance="100000"/><!-- ferumbras' hat -->
+                <item id="7410" countmax="1" chance="1000"/>
+                <item id="7405" countmax="1" chance="1000"/>
+                <item id="7422" countmax="1" chance="1000"/>
+                <item id="7435" countmax="1" chance="1000"/>
+                <item id="2410" countmax="1" chance="1000"/> 
+                <item id="12531" countmax="1" chance="100"/>
+                <item id="11715" countmax="1" chance="100"/>
+                <item id="10563" countmax="1" chance="100"/> 
+                <item id="12587" countmax="1" chance="100"/>
+                <item id="2209" countmax="1" chance="100"/> 
+                <item id="2152" countmax="15" chance="70000"/>
+	        <item id="2152" countmax="30" chance="50000"/>                    
+        </loot>
+</monster>

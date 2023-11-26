@@ -1,0 +1,160 @@
+<!-- Magias De Nivel 240 -->
+          <instant name="Death Wave" words="exevo mort hur" lvl="240" mana="3000" direction="1" exhaustion="1000" needlearn="0" script="240/exevomorthur.lua">
+	       <vocation name="Sorcerer"/>
+	       <vocation name="Master Sorcerer"/>
+               <vocation name="Hell Magician"/>
+           </instant>
+           <instant name="Front Sweep" words="exori mim" lvl="240" mana="500" direction="1" exhaustion="1000" needlearn="0" script="240/exevomashur.lua">
+	       <vocation name="Knight"/>
+	       <vocation name="Elite Knight"/>
+               <vocation name="Titan Gladiator"/>
+           </instant>
+           <instant name="Holy Beam" words="exevo gran vis hur" lvl="240" mana="3000" direction="1" exhaustion="1000" needlearn="0" script="240/exorimaspoison.lua">
+	       <vocation name="Druid"/>
+	       <vocation name="Elder Druid"/>
+               <vocation name="High Priest"/>
+           </instant>
+           <instant name="Assassin" words="exori mas con" lvl="240" mana="900" prem="0" range="5" needtarget="1" exhaustion="1000" blockwalls="1" needlearn="0" script="240/exorimascon.lua">
+	       <vocation name="Paladin"/>
+	       <vocation name="Royal Paladin"/>
+               <vocation name="Force Sniper"/>
+</instant>
+
+
+   <!-- Magias De Nivel 260 -->
+           <instant name="Wizard Summon" words="utevo res wizard" lvl="260" mana="2500" prem="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="260/wizard.lua">
+	       <vocation name="Sorcerer"/>
+	       <vocation name="Master Sorcerer"/>
+               <vocation name="Hell Magician"/>
+           </instant>
+           <instant name="Sniper Summon" words="utevo res sniper" lvl="260" mana="1000" prem="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="260/sniper.lua">
+	       <vocation name="Paladin"/>
+	       <vocation name="Royal Paladin"/>
+               <vocation name="Force Sniper"/>
+           </instant>
+        <instant name="Mana Drain" words="exori vita" lvl="260" mana="2500" prem="0" range="1" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="260/manadrain.lua">
+	       <vocation name="Druid"/>
+	       <vocation name="Elder Druid"/>
+               <vocation name="High Priest"/>
+	</instant>
+        <instant name="Life Drain" words="exana ico" lvl="260" mana="300" prem="0" range="1" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="260/lifedrain.lua">
+	       <vocation name="Knight"/>
+	       <vocation name="Elite Knight"/>
+               <vocation name="Titan Gladiator"/>
+</instant>
+
+
+
+ <!-- Magia De Nivel 280 -->
+           <instant name="Divine Ethereal Spear" words="exori gran con" lvl="280" mana="700" prem="0" range="4" needtarget="1" exhaustion="1000" blockwalls="1" needlearn="0" script="280/exoriconstar.lua">
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+                <vocation name="Force Sniper"/>
+	   </instant>
+           <instant name="Burning" words="exori gran flam" lvl="280" mana="4500" prem="0" range="4" needtarget="1" exhaustion="1000" blockwalls="1" needlearn="0" script="280/exorigranflam.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+                <vocation name="Hell Magician"/>
+	   </instant>
+           <instant name="Freezing" words="exori gran frigo" lvl="280" mana="4500" prem="0" range="4" needtarget="1" exhaustion="1000" blockwalls="1" needlearn="0" script="280/exorigranvis.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+                <vocation name="High Priest"/>
+	   </instant>
+           <instant name="Death Weapon" words="exori hur mort" lvl="280" mana="200" prem="0" range="2" needtarget="1" exhaustion="1000" blockwalls="1" needlearn="0" script="280/exorihurmort.lua">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight"/>
+                <vocation name="Titan Gladiator"/>
+</instant>
+
+
+ <!-- Magia De Nivel 300 -->
+                <instant name="Agility" words="exori agility" lvl="300" mana="50" prem="0" range="1" needtarget="1" exhaustion="1500" blockwalls="1" needlearn="0" script="300/exoriagility.lua">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight"/>
+                <vocation name="Titan Gladiator"/>
+             </instant>
+           <instant name="Divine Stunning" words="exori con stun" lvl="300" mana="800" prem="0" range="4" needtarget="1" exhaustion="1200" blockwalls="1" needlearn="0" script="300/exoriconstun.lua">
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+                <vocation name="Force Sniper"/>
+	   </instant>
+           <instant name="Paralyzebolt" words="exori mas ani" lvl="300" mana="3000" prem="0" range="3" needtarget="1" exhaustion="1200" blockwalls="1" needlearn="0" script="300/exorianimas.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+                <vocation name="High Priest"/>
+                <vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+                <vocation name="Hell Magician"/>
+	   </instant>
+
+          <!-- Magia De Angel -->
+           <instant name="buff" words="buff" lvl="0" mana="0" prem="0" aggressive="0" needtarget="1" params="1" needlearn="0" event="script" script="120/lamia.lua">
+	   </instant>
+	   
+	   
+	    <!-- Magia De Nivel 340 -->
+           <instant name="Recover Maxima" words="exura gran res" lvl="340" mana="3600" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="340/Recover Maxima.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+                <vocation name="High Priest"/>
+	   </instant>
+           <instant name="Health Recovery" words="exana max mort" lvl="340" mana="600" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="340/Health Recovery.lua">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight"/>
+                <vocation name="Titan Gladiator"/>
+	   </instant>
+           <instant name="Death Recovery" words="exura gran mort" lvl="340" mana="3600" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="340/Death Recovery.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/> 
+		<vocation name="Hell Magician"/>
+	   </instant>
+           <instant name="Divine Reconering" words="exura mas san" lvl="340" mana="1200" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="340/Divine Reconering.lua">
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+                <vocation name="Force Sniper"/>
+	   </instant>
+
+
+          <!-- Magia De Nivel 360 -->
+           <instant name="Polymorph" words="exori gran pox" lvl="360" mana="800" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="360/Polymorph.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+                <vocation name="High Priest"/>
+	   </instant>
+           <instant name="Eleyson" words="exori hur ani" lvl="360" mana="400" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="360/Eleyson.lua">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight"/>
+                <vocation name="Titan Gladiator"/>
+	   </instant>
+           <instant name="Sudden Strike" words="exori gran mort" lvl="360" mana="800" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="360/Sudden Strike.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/> 
+		<vocation name="Hell Magician"/>
+	   </instant>
+           <instant name="Divine Extermination" words="exori gran san" lvl="360" mana="700" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="360/Divine Extermination.lua">
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+                <vocation name="Force Sniper"/>
+	   </instant>
+
+
+              <!-- Magia De Nivel 380 -->
+           <instant name="Precipitate Melee" words="utito gran tempo" lvl="380" mana="390" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="380/Precipitate Melee.lua">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight"/>
+                <vocation name="Titan Gladiator"/>
+	   </instant>
+           <instant name="Magic Illusion" words="utori gran" lvl="380" mana="1200" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="380/Magic Illusion.lua">
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/> 
+		<vocation name="Hell Magician"/>
+                <vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+                <vocation name="High Priest"/>
+	   </instant>
+           <instant name="Awake Distance" words="utito gran tempo san" lvl="380" mana="600" prem="0" range="5" exhaustion="1200" blockwalls="1" needlearn="0" script="380/Awake Distance.lua">
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+                <vocation name="Force Sniper"/>
+	   </instant>

@@ -1,0 +1,7 @@
+<npc name="Norah" script="data/npc/scripts/escamas.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="140" head="96" body="114" legs="68" feet="78" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu coleciono {escamas} e posso compra-las por gemas."/>
+	</parameters>
+</npc>

@@ -1,0 +1,4 @@
+<npc name="Energy" floorchange="0">
+	<health now="100" max="100"/>
+        <look type="145" head="0" body="128" legs="128" feet="0" addons="3" corpse="6080"/>
+</npc>

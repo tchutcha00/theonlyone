@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Many Pet" nameDescription="Many Pet" race="undead" experience="300" speed="4000" manacost="0">
+	<health now="2000" max="2000"/>
+        <look type="134" head="0" body="67" legs="114" feet="0" addons="3" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="0"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="20"/>
+                <flag skull="5"/>
+	</flags>
+	<attacks>
+                     <attack name="death" interval="500" chance="100" range="3" radius="1" target="1" min="-15000" max="-20000">
+                     <attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		     <attack name="physical" interval="1000" chance="100" range="1" min="-25000" max="-35000">
+		</attack>                               
+	</attacks>
+	<defenses armor="199" defense="199"/>
+	<immunities>
+		<immunity physical="1"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity ice="1"/>
+		<immunity holy="1"/>
+		<immunity death="1"/>
+		<immunity lifedrain="1"/>
+		<immunity manadrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+<script>
+    <event name="Efeito Pet"/>
+</script>
+</monster>

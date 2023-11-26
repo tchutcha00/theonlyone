@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Angel" nameDescription="Fire Angel" race="undead" experience="0" speed="1000" manacost="0">
+	<health now="150000" max="150000"/>
+        <look type="138" head="94" body="94" legs="94" feet="94" addons="0" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="20"/>
+                <flag skull="5"/>
+	</flags>
+	<attacks>
+		<attack name="fire" interval="500" chance="100" range="3" target="1" min="-300" max="-650">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<elements>
+<element firePercent="25"/>
+</elements>
+<script>
+    <event name="Efeito Pet"/>
+</script>
+</monster>

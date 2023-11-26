@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kelly" script="data/npc/scripts/coragem.lua" walkinterval="3000">
+  
+        <health now="100" max="100"/>
+  
+        <look type="140" head="79" body="90" legs="85" feet="77" addons="3"/>
+       <parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou Kelly, diga {wisdom} para aumenta a health das potions de seu personagem!"/>
+	</parameters>
+</npc>

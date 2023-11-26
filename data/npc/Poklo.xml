@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Poklo" script="data/npc/scripts/poklo.lua" walkinterval="0" floorchange="0">
+          <health now="150" max="150"/>
+          <look type="151" head="0" body="65" legs="84" feet="65" addons="2" />
+          <parameters>
+                    
+                    <parameter key="message_greet" value="Hello, |PLAYERNAME| diga {travel} para saber onde poderei te levar hoje."/>
+          </parameters>
+</npc>
+

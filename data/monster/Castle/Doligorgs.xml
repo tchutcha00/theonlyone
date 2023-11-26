@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Doligorgs" nameDescription="doligorgs" race="blood" experience="0" speed="1500" manacost="0">
+	<health now="2500000" max="2500000"/>
+  	<look type="12" head="0" body="94" legs="65" feet="79" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="30" attack="4500"/>
+
+            <attack name="earth" interval="1000" chance="60" length="8" spread="0" min="-17000" max="-20000">
+
+	</attack>
+            <attack name="Hells Core" interval="1000" chance="70" target="0" radius="6" min="-14000" max="-18000">
+		
+	          <attribute key="areaEffect" value="fire"/>
+
+	</attack>
+	<attack name="Firebolt" interval="2000" chance="80" target="1" min="-10000" max="-14510">
+
+	</attack>
+  </attacks>
+        <defenses>
+		<defense name="healing" interval="2000" chance="10" min="10000" max="25000"/>
+	</defenses>
+	<elements>
+	
+	<element earthPercent="100"/>
+</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="1"/>
+		<immunity ice="0"/>
+		<immunity holy="0"/>
+		<immunity death="0"/>
+		<immunity lifedrain="1"/>
+		<immunity manadrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot capacity="900">
+		<item id="2160" countmax="100" chance="25000"/><!-- Crystal coin -->
+		<item id="2160" countmax="100" chance="25000"/><!-- Crystal coin -->
+		<item id="2160" countmax="100" chance="25000"/><!-- Crystal coin -->
+		<item id="2157" countmax="100" chance="45000"/><!-- Nugget -->
+		<item id="2160" countmax="100" chance="25000"/><!-- Crystal coin -->	
+                <item id="2160" countmax="100" chance="25000"/><!-- Crystal coin -->
+                <item id="6541" countmax="100" chance="25000"/><!-- Fire pet -->
+                <item id="6542" countmax="100" chance="25000"/><!-- Fire pet -->
+                <item id="6543" countmax="100" chance="25000"/><!-- Fire pet -->
+                <item id="6544" countmax="100" chance="25000"/><!-- Fire pet -->
+                <item id="6545" countmax="100" chance="25000"/><!-- Fire pet -->
+
+                     <item id="2187" countmax="1" chance="16"/><!-- infernatil's wand -->
+                     <item id="8921" countmax="1" chance="16"/><!-- infernatil's rod -->	
+                     <item id="7753" countmax="1" chance="16"/><!-- infernatil's axe -->
+                     <item id="7748" countmax="1" chance="16"/><!-- infernatil's sword -->
+                     <item id="7755" countmax="1" chance="16"/><!-- infernatil's club -->
+                     <item id="2546" countmax="1" chance="16"/><!-- infernatil's arrow -->
+                     <item id="2183" countmax="1" chance="16"/><!-- apocalypse rod -->
+                     <item id="8920" countmax="1" chance="16"/><!-- apocalypse wand -->
+                     <item id="7770" countmax="1" chance="16"/><!-- apocalypse axe -->
+                     <item id="7764" countmax="1" chance="16"/><!-- apocalypse sword -->
+                     <item id="7773" countmax="1" chance="16"/><!-- apocalypse club -->
+                     <item id="8858" countmax="1" chance="16"/><!-- apocalypse bow -->
+                     <item id="7364" countmax="1" chance="16"/><!-- apocalypse's arrow -->                     
+                     <item id="8912" countmax="1" chance="16"/><!-- verminor rod -->	
+                     <item id="2181" countmax="1" chance="16"/><!-- verminor wand -->
+                     <item id="7861" countmax="1" chance="16"/><!-- verminor axe --> 
+                     <item id="7855" countmax="1" chance="16"/><!-- verminor sword -->	
+                     <item id="7864" countmax="1" chance="16"/><!-- verminor club -->
+                     <item id="8856" countmax="1" chance="16"/><!-- verminor bow -->   
+                     <item id="2545" countmax="1" chance="16"/><!-- verminor's arrow -->
+                     <item id="2185" countmax="1" chance="16"/><!-- bazir rod -->
+                     <item id="7406" countmax="1" chance="16"/><!-- bazir sword -->
+		     <item id="2157" countmax="20" chance="45000"/><!-- Nugget -->
+                     <item id="7415" countmax="1" chance="16"/><!-- bazir club -->
+                     <item id="8910" countmax="1" chance="16"/><!-- bazir wand -->
+                     <item id="7433" countmax="1" chance="16"/><!-- bazir axe -->
+                     <item id="7365" countmax="1" chance="16"/><!-- bazir's arrow -->
+                     <item id="5913" countmax="1" chance="6"/><!-- escama de bazir -->
+                     <item id="5910" countmax="1" chance="4"/><!-- escama de verminor -->
+                      <item id="5912" countmax="1" chance="4"/><!-- escama de apocalypse -->
+                     <item id="5911" countmax="1" chance="4"/><!-- escama de infernatil -->
+                     <item id="2090" countmax="1" chance="4"/><!-- chave -->
+
+        
+                     <item id="11119" chance="100000"><!-- bag -->
+		<inside>
+                     <item id="2471" countmax="1" chance="3"/><!-- golden helmet -->
+                     <item id="2466" countmax="1" chance="3"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="3"/><!-- golden legs -->
+                     <item id="8879" countmax="1" chance="3"/><!-- voltage armor -->
+                     <item id="8889" countmax="1" chance="3"/><!-- skullcracker armor -->
+                     <item id="8880" countmax="1" chance="3"/><!-- swamplair armor -->
+                     <item id="8892" countmax="1" chance="3"/><!-- ethno coat -->
+                     <item id="8890" countmax="1" chance="3"/><!-- robe of the underworld -->
+                     <item id="8886" countmax="1" chance="3"/><!-- molten plate -->
+                     <item id="8884" countmax="1" chance="3"/><!-- oceanborn leviathan armor -->
+                     <item id="8891" countmax="1" chance="3"/><!-- paladin armor -->
+                     <item id="2472" countmax="1" chance="3"/><!-- magic plate armor -->
+                     <item id="2487" countmax="1" chance="3"/><!-- crown armor -->
+                     <item id="2476" countmax="1" chance="3"/><!-- knight armor -->
+                     <item id="8881" countmax="1" chance="3"/><!-- fireborn giant armor -->
+                     <item id="8883" countmax="1" chance="3"/><!-- windborn colossus armor -->
+                     <item id="8882" countmax="1" chance="3"/><!-- earthborn titan armor -->
+                     <item id="8888" countmax="1" chance="3"/><!-- master archer's armor -->
+                     <item id="6548" countmax="1" chance="3"/><!-- castle health gem -->
+                     <item id="6547" countmax="1" chance="3"/><!-- castle spirit gem -->
+                     <item id="6549" countmax="1" chance="3"/><!-- castle mana gem -->
+                     <item id="8885" countmax="1" chance="3"/><!-- divine plate -->
+                     <item id="8871" countmax="1" chance="3"/><!-- focus cape -->
+                     <item id="8867" countmax="1" chance="3"/><!-- dragon robe -->
+                     <item id="8866" countmax="1" chance="3"/><!-- serpent coat -->
+                     <item id="8868" countmax="1" chance="3"/><!-- velvet mantle -->
+                     <item id="12764" countmax="1" chance="3"/><!-- royal scale robe -->
+                     <item id="8869" countmax="1" chance="3"/><!-- greenwood coat -->
+
+                     <item id="2493" countmax="1" chance="3"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="3"/><!-- demon armor -->
+                     <item id="2495" countmax="1" chance="3"/><!-- demon leges -->
+
+
+                     <item id="2506" countmax="1" chance="3"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="3"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="3"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="3"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="3"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="3"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="3"/><!-- magician hat -->
+                     <item id="2656" countmax="1" chance="3"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="3"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="3"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="3"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="3"/><!-- yalahari mask -->
+
+                     
+                     <item id="2433" countmax="1" chance="3"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="3"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="3"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="3"/><!-- flame blade -->
+                     <item id="2389" countmax="1" chance="3"/><!-- spear -->
+                     <item id="8854" countmax="1" chance="3"/><!-- warsinger bow -->
+
+
+                     <item id="8901" countmax="1" chance="3"/><!-- spellbook of warding -->
+                     <item id="2523" countmax="1" chance="3"/><!-- blessed shield -->
+
+                     
+                     <item id="2124" countmax="1" chance="3"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="3"/><!-- flash boots -->
+                     <item id="8189" countmax="1" chance="3"/><!-- promotion scroll -->
+                     <item id="2145" countmax="1" chance="3"/><!-- premium coin -->
+                     <item id="2138" countmax="1" chance="3"/><!-- sapphire amulet -->
+                     <item id="4850" countmax="1" chance="3"/><!-- draug pet egg -->
+                     <item id="10523" countmax="1" chance="3"/><!-- many pet egg -->
+                     <item id="10223" countmax="1" chance="3"/><!-- mechanical fishing rod -->
+
+
+                     <item id="7838" countmax="1" chance="3"/><!-- flash arrow -->
+                     <item id="7850" countmax="1" chance="3"/><!-- Earth arrow -->
+                     <item id="7840" countmax="1" chance="3"/><!-- flamming arrow -->
+                     <item id="7839" countmax="1" chance="3"/><!-- shiver arrow -->   </inside>
+
+                     </item>
+	</loot>
+</monster>

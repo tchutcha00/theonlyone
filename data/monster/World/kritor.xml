@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kritor" nameDescription="Kritor" race="fire" experience="0" speed="500" manacost="0">
+	<health now="5000000" max="5000000"/>
+	<look type="12" head="0" body="0" legs="0" feet="99" corpse="6068"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="70" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" skill="220" attack="500"/>
+		<attack name="effect" interval="700" chance="6" radius="5" target="0">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="fire" interval="500" chance="10" range="7" radius="7" target="1" min="-43000" max="-66000">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="energy" interval="800" chance="15" length="8" spread="0" min="-45000" max="-68000">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+	</attacks>
+	<defenses>
+		<defense name="healing" interval="1000" chance="40" min="40000" max="50000">
+		</defense>
+	</defenses>
+	<script>
+
+<event name="world"/>
+</script>
+	<elements>
+		<element firePercent="0"/>
+		<element earthPercent="0"/>
+		<element deathPercent="0"/>
+		<element icePercent="0"/>
+		<element holyPercent="0"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Cristiana" script="data/npc/scripts/castlevoucher.lua" walkinterval="1500" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="150" head="79" body="77" legs="85" feet="76" addons="0" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. eu sou Cristiana, diga {deploy} para contratar uma tier." />
+	</parameters>
+</npc>
+

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<mod name="Bank System" version="1.0" author="Kimoszin" contact="tibiaking.com" enabled="yes">
+
+    <talkaction words="!balance; !deposit; !withdraw" event="buffer"><![CDATA[
+
+        if (words == "!balance") then
+
+            return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Voce tem "..getPlayerBalance(cid).." gold coins.")
+
+        end
+
+
+        if (words == "!deposit" and isNumber(param)) then
+
+            return doPlayerDepositMoney(cid, param) and doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Voce depositou "..param.." gold coins.")
+
+        end
+
+
+        if (words == "!deposit" and param == "all") then
+
+            return (getPlayerMoney(cid) > 0) and doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Voce depositou "..getPlayerMoney(cid).." gold coins.") and doPlayerDepositAllMoney(cid)
+
+        end
+
+
+        if (words == "!withdraw" and isNumber(param)) then
+
+            return (getPlayerBalance(cid) > 0) and doPlayerWithdrawMoney(cid, tonumber(param)) and doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Voce retirou "..param.." gold coins.")
+
+        end
+
+
+        if (words == "!withdraw" and param == "all") then
+
+            return (getPlayerBalance(cid) > 0) and doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Voce retirou "..getPlayerBalance(cid).." gold coins.") and doPlayerWithdrawAllMoney(cid)
+
+        end
+
+    ]]></talkaction>
+
+</mod>

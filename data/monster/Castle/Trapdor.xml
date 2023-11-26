@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Trapdory" nameDescription="trapdorys" race="blood" experience="0" speed="0" manacost="0">
+	<health now="112500000" max="112500000"/>
+  	<look type="12" head="0" body="94" legs="65" feet="79" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="130" attack="4500"/>
+                 
+	<attack name="Firebolt" interval="1" chance="100" target="1" min="-1000" max="-1000">
+
+	</attack>
+  </attacks>
+	<elements>
+	
+	<element earthPercent="100"/>
+</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="1"/>
+		<immunity ice="0"/>
+		<immunity holy="0"/>
+		<immunity death="0"/>
+		<immunity lifedrain="1"/>
+		<immunity manadrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Guardiao" nameDescription="a Guardiao" race="blood" experience="0" speed="1500" manacost="0">
+	<health now="150000" max="150000"/>
+  	<look type="134" head="0" body="115" legs="50" feet="67" corpse="3128" addons="3"/>
+	<targetchange interval="900" chance="10"/>
+	<strategy attack="90" defense="150"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="550" skill="30" attack="2500"/>
+    <attack name="fire" interval="1000" chance="6" range="8" radius="6" target="1" min="-5000" max="-9000">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+   <attack name="lifedrain" interval="200" chance="4" length="8" spread="0" min="-1000" max="-2000">
+	</attack>
+    <attack name="manadrain" interval="2500" chance="5" range="7" min="-1000" max="-1500"/>
+        </attacks>
+	<defenses armor="120" defense="120">
+		<defense name="healing" interval="5000" chance="40" min="2500" max="6000"/>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

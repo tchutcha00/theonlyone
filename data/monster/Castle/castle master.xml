@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Castle Master" nameDescription="castle master" race="blood" speed="400" manacost="0">
+	<health now="9300000" max="9300000"/>
+  	<look type="12" head="79" body="114" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+         <attacks>
+	 <attack name="melee" interval="500" skill="120" attack="33000"/>
+    <attack name="great fireball" interval="1000" chance="50" range="7" radius="7" target="1" min="-50000" max="-60000">
+		<attribute key="areaEffect"/>
+	</attack>
+    <attack name="lifedrain" interval="1000" chance="50" length="8" spread="0" min="-20000" max="-30000">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+    <attack name="Ice Strike" interval="1000" chance="100" range="7" target="1" min="-22000" max="-32000">
+		<attribute key="shootEffect" value="ice"/>
+        </attack>
+	<attack name="speed" interval="5000" chance="15" target="1" speedchange="-750" duration="6000">
+		<attribute key="shootEffect" value="suddendeath"/>
+	</attack>
+        <attack name="Sudden Beam" interval="2000" chance="60" min="-20000" max="-30000">
+	</attack>
+	<attack name="energy" interval="1000" chance="60" range="1" target="1" min="-26000" max="-32000">
+		<attribute key="areaEffect"/>
+	</attack>
+  </attacks>
+        <defenses>
+		<defense name="healing" interval="2000" chance="70" min="100000" max="150000"/>
+	</defenses>
+<elements>
+<element firePercent="15"/>
+<element energyPercent="15"/>
+<element deathPercent="15"/>
+<element physicalPercent="15"/>
+<element holyPercent="15"/>
+<element icePercent="15"/>
+<element earthPercent="15"/>
+</elements>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<loot capacity="900">
+                     <item id="5914" countmax="1" chance="2"/><!-- escama castle master -->
+
+                     <item id="2160" countmax="100" chance="80000"/><!-- Energy pet -->
+                <item id="6545" countmax="100" chance="80000"/><!-- Energy pet -->
+                <item id="2695" countmax="50" chance="80000"/><!-- Phoenix pet -->
+                <item id="6544" countmax="100" chance="80000"/><!-- Terra pet -->
+                <item id="6542" countmax="100" chance="80000"/><!-- Fire pet -->
+                <item id="6543" countmax="100" chance="80000"/><!-- Ice pet -->
+                <item id="6541" countmax="100" chance="80000"/><!-- Holy pet -->
+		<item id="2160" countmax="100" chance="80000"/>
+                <item id="5926" chance="100000"><!-- bag -->
+		<inside>
+
+                     <item id="2471" countmax="1" chance="3"/><!-- golden helmet -->
+                     <item id="2466" countmax="1" chance="3"/><!-- golden armor -->
+                     <item id="2470" countmax="1" chance="3"/><!-- golden legs -->
+
+
+                     <item id="2493" countmax="1" chance="3"/><!-- demon helmet -->
+                     <item id="2494" countmax="1" chance="3"/><!-- demon armor -->
+                     <item id="2495" countmax="1" chance="3"/><!-- demon leges -->
+
+
+                     <item id="2506" countmax="1" chance="3"/><!-- dragon scale helmet -->
+                     <item id="2492" countmax="1" chance="3"/><!-- dragon scale mail -->
+                     <item id="2469" countmax="1" chance="3"/><!-- dragon scale legs -->
+
+
+                     <item id="7902" countmax="1" chance="3"/><!-- glacier mask -->
+                     <item id="7897" countmax="1" chance="3"/><!-- glacier robe -->
+                     <item id="7896" countmax="1" chance="3"/><!-- glacier kilt -->
+
+
+                     <item id="2662" countmax="1" chance="3"/><!-- magician hat -->
+                     <item id="2656" countmax="1" chance="3"/><!-- blue robe -->
+                     <item id="7730" countmax="1" chance="3"/><!-- blue legs -->
+
+
+		     <item id="9776" countmax="1" chance="3"/><!-- yalahari armor -->
+                     <item id="9777" countmax="1" chance="3"/><!-- yalahari legs -->
+                     <item id="9778" countmax="1" chance="3"/><!-- yalahari mask -->
+
+                     <item id="8879" countmax="1" chance="3"/><!-- Voltage Armor -->
+                     <item id="8889" countmax="1" chance="3"/><!-- skullcracker armor -->
+                     <item id="8880" countmax="1" chance="3"/><!-- swamplair armor -->
+                     <item id="8881" countmax="1" chance="3"/><!-- fireborn giant armor -->
+                     <item id="8883" countmax="1" chance="3"/><!-- windborn colossus armor -->
+                     <item id="8882" countmax="1" chance="3"/><!--  earthborn titan armor-->
+                     <item id="8892" countmax="1" chance="3"/><!-- ethno coat -->
+                     <item id="8890" countmax="1" chance="3"/><!-- robe of the underworld -->
+                     <item id="8886" countmax="1" chance="3"/><!-- molten plate -->
+                     <item id="8884" countmax="1" chance="3"/><!-- oceanborn leviathan armor -->
+                     <item id="8888" countmax="1" chance="3"/><!-- master archer armor -->
+                     <item id="8891" countmax="1" chance="3"/><!-- paladin armor -->
+                     <item id="2472" countmax="1" chance="3"/><!-- magic plate armor -->
+                     <item id="2487" countmax="1" chance="3"/><!-- crown armor -->
+                     <item id="2476" countmax="1" chance="3"/><!-- knight armor -->
+                     <item id="6548" countmax="1" chance="3"/><!-- castle health gem -->
+                     <item id="6547" countmax="1" chance="3"/><!-- castle spirit gem -->
+                     <item id="6549" countmax="1" chance="3"/><!-- castle mana gem -->
+                     <item id="2090" countmax="1" chance="4"/><!-- chave -->
+                     <item id="8885" countmax="1" chance="3"/><!-- divine plate -->
+                     <item id="8871" countmax="1" chance="3"/><!-- focus cape -->
+                     <item id="8867" countmax="1" chance="3"/><!-- dragon robe -->
+                     <item id="8866" countmax="1" chance="3"/><!-- serpent coat -->
+                     <item id="8868" countmax="1" chance="3"/><!-- velvet mantle -->
+                     <item id="12764" countmax="1" chance="3"/><!-- royal scale robe -->
+                     <item id="8869" countmax="1" chance="3"/><!-- greenwood coat -->
+
+                     
+                     <item id="2433" countmax="1" chance="1"/><!-- enchanted staff -->
+                     <item id="8926" countmax="1" chance="1"/><!--  demonwing axe-->
+                     <item id="8927" countmax="1" chance="1"/><!-- trinity mace -->
+                     <item id="8931" countmax="1" chance="1"/><!-- flame blade -->
+                     <item id="8854" countmax="1" chance="1"/><!-- warsinger bow -->
+					 <item id="10944" countmax="1" chance="1"/><!-- promotion -->
+
+
+                     <item id="8901" countmax="1" chance="1"/><!-- spellbook of warding -->
+                     <item id="2523" countmax="1" chance="1"/><!-- blessed shield -->
+
+                     
+                     <item id="2124" countmax="1" chance="1"/><!-- recovery ring -->
+                     <item id="6132" countmax="1" chance="1"/><!-- flash boots -->
+                     <item id="2138" countmax="1" chance="1"/><!-- sapphire amulet -->  
+</inside>
+
+                     </item>
+	</loot>
+<script>
+<event name="tp"/>
+</script>
+</monster>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fenorath" nameDescription="fenorath" race="blood" speed="1400" manacost="0">
+	<health now="9000000" max="9000000"/>
+  	<look type="12" head="77" body="112" legs="0" feet="0" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+         <attacks>
+	 <attack name="melee" interval="500" skill="620" attack="1000"/>
+    <attack name="great fireball" interval="1000" chance="50" range="7" radius="7" target="1" min="-245000" max="-256000">
+		<attribute key="areaEffect"/>
+	</attack>
+    <attack name="lifedrain" interval="1000" chance="50" length="8" spread="0" min="-242000" max="-248000">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+    <attack name="Ice Strike" interval="1000" chance="100" range="7" target="1" min="-232200" max="-243200">
+		<attribute key="shootEffect" value="ice"/>
+        </attack>
+	<attack name="speed" interval="5000" chance="15" target="1" speedchange="-750" duration="6000">
+		<attribute key="shootEffect" value="suddendeath"/>
+	</attack>
+        <attack name="Sudden Beam" interval="2000" chance="60" min="-242000" max="-253000">
+	</attack>
+	<attack name="energy" interval="1000" chance="60" range="1" target="1" min="-222600" max="-233200">
+		<attribute key="areaEffect"/>
+	</attack>
+  </attacks>
+        <defenses>
+		<defense name="healing" interval="2000" chance="70" min="100000" max="150000"/>
+	</defenses>
+<elements>
+<element firePercent="15"/>
+<element energyPercent="15"/>
+<element deathPercent="15"/>
+<element physicalPercent="15"/>
+<element holyPercent="15"/>
+<element icePercent="15"/>
+<element earthPercent="15"/>
+</elements>
+	<script>
+<event name="world"/>
+</script>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+</monster>

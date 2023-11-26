@@ -1,0 +1,7 @@
+<npc name="Jack [Check]" script="data/npc/scripts/hat.lua" walkinterval="0" floorchange="0" direction="east">
+	<health now="100" max="100"/>
+	<look type="145" head="0" body="95" legs="76" feet="0" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou Jack, diga {check} para checar os niveis de habilidade de seu personagem."/>
+	</parameters>
+</npc>

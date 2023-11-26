@@ -1,0 +1,2 @@
+    <globalevent name="Zumbi" interval="3600000" event="script" value="zumbi.lua"/>
+        <globalevent name="zombieevent" interval="3600000" event="script" value="zombie event.lua"/>

@@ -1,0 +1,4 @@
+<npc name="Ice" walkinterval="10000" floorchange="0">
+	<health now="100" max="100"/>
+        <look type="140" head="0" body="125" legs="125" feet="0" addons="3" corpse="6080"/>
+</npc>

@@ -1,0 +1,4 @@
+function onThink(interval, lastExecution)
+if getGuildWinnerName() == "" and getGlobalStorageValue(frag_guild.start_frags) >= 1 then setGlobalStorageValue(frag_guild.start_frags, 0) end
+return doBroadcastMessage("".. (getGuildWinnerName() == "" and "[Guild Frag System]\nA primeira guild a atingir "..frag_guild.FragsToWinAcess.." frags vai ganhar "..frag_guild.AcessTimeDays.." dias de acesso a areas exclusivas, para mais informações digite !guildfrags" or "[Guild Frag System]\nAtualmente a guild dominante e ["..getGuildWinnerName().."] e seu dominio termina em "..getAcessDate(getGuildWinnerName()).."") .."", 22)
+end

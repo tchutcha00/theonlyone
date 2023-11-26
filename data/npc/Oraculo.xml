@@ -1,0 +1,7 @@
+<npc name="Ben [Castle]" script="data/npc/scripts/hat.lua" walkinterval="0" floorchange="0" direction="south">
+	<health now="100" max="100"/>
+	<look type="289" head="0" body="95" legs="76" feet="0" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou um colecionador, voce deseja um {Castle Voucher} ?"/>
+	</parameters>
+</npc>

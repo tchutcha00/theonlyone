@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lamia" nameDescription="Lamia 0" race="undead" experience="0" speed="400" manacost="0">
+	<health now="350000" max="350000"/>
+        <look type="269" head="0" body="94" legs="94" feet="0" addons="2" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="20"/>
+	</flags>
+	<attacks>
+		<attack name="physical" interval="1000" chance="100" range="1" min="-210" max="-285">
+                <attack name="buff" interval="1000" chance="100" range="10" duration="60000"/>
+		</attack>           
+	</attacks>
+          <defenses>
+	        <defenses name="buff" interval="20000" chance="100" duration="60000"/>
+        </defenses>
+<script>
+    <event name="Pet Healing"/>
+    <event name="Pet Skill"/>
+    <event name="attack"/>
+</script>
+<elements>
+<element firePercent="75"/>
+<element energyPercent="75"/>
+<element deathPercent="75"/>
+<element physicalPercent="75"/>
+<element holyPercent="75"/>
+<element icePercent="75"/>
+<element earthPercent="75"/>
+</elements>
+</monster>

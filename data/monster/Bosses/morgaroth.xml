@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Morgaroth" nameDescription="Morgaroth" race="undead" experience="1500000" speed="600" manacost="0">
+
+	<health now="3000000" max="3000000"/>
+  	<look type="12" head="0" body="94" legs="79" feet="79" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="80" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="500" skill="120" attack="5000"/>
+     <attack name="fire" interval="1000" chance="40" range="7" radius="7" target="1" min="-15500" max="-40000">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="lifedrain" interval="2000" chance="40" length="8" spread="0" min="-30000" max="-50000">
+		<attribute key="areaEffect"/>
+	</attack>
+	<attack name="Flame Strike" interval="1000" chance="80" range="1" target="1" min="-5000" max="-40000">
+		<attribute key="areaEffect"/>
+	</attack>
+        <attack name="Sudden Beam" interval="2000" chance="70" length="5" spread="0" min="-15050" max="-35000">
+        <attribute key="shootType" value="greenspark"/>		
+        </attack>
+  </attacks>
+        <defenses armor="50" defense="50">
+		<defense name="healing" interval="2000" chance="50" min="10000" max="20000"/>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	        <loot>
+                <item id="5943" chance="100000"/><!-- ferumbras' hat -->
+                <item id="12531" countmax="1" chance="100"/>
+                <item id="10563" countmax="1" chance="100"/> 
+                <item id="12587" countmax="1" chance="100"/>
+                <item id="2207" countmax="1" chance="100"/>
+                <item id="2191" countmax="1" chance="100"/>
+                <item id="2421" countmax="1" chance="100"/> 
+                <item id="2432" countmax="1" chance="100"/>
+                <item id="2392" countmax="1" chance="100"/> 
+                <item id="2152" countmax="40" chance="70000"/>
+	       <item id="2152" countmax="100" chance="50000"/>                
+        </loot>
+</monster>

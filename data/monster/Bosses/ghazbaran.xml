@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghazbaran" nameDescription="Ghazbaran" race="blood" experience="1500000" speed="600" manacost="0">
+	<health now="3000000" max="3000000"/>
+        <look type="12" head="0" body="123" legs="97" feet="94" corpse="6068" addons="3"/>
+	<targetchange interval="500" chance="3"/>
+	<strategy attack="100" defense="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	 <attack name="melee" interval="1000" skill="10" attack="3500"/>
+	
+            <attack name="physical" interval="1000" chance="40" length="10" spread="0" min="-15000" max="-25000">
+
+	</attack>
+            <attack name="Avalanche" interval="2000" chance="50" radius="5" target="0" min="-15000" max="-35000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+			
+            <attribute key="shootEffect" value="ice"/>
+
+	</attack>
+	<attack name="ice" interval="3000" chance="30" target="0" radius="6" min="-7000" max="-15000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+	
+	</attack>
+           <attack name="Energy Strike" interval="4000" chance="40" radius="4" target="0" min="-15550" max="-20000">
+			
+                     <attribute key="areaEffect" value="icetornado"/>
+
+           </attack>
+  </attacks>
+        <defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="20" min="10000" max="20000"/>
+	</defenses>
+	<elements>
+	
+	<element energyPercent="80"/>
+</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+                <item id="5809" chance="100000"/>
+                <item id="12531" countmax="1" chance="100"/>
+                <item id="10563" countmax="1" chance="100"/> 
+                <item id="12587" countmax="1" chance="100"/>
+                <item id="2167" countmax="1" chance="100"/>
+                <item id="2111" countmax="1" chance="100"/>
+                <item id="2542" countmax="1" chance="100"/> 
+                <item id="2186" countmax="1" chance="100"/>
+                <item id="8900" countmax="1" chance="100"/>  
+                <item id="2152" countmax="30" chance="70000"/>
+	        <item id="2152" countmax="80" chance="50000"/>     
+        </loot>
+</monster>

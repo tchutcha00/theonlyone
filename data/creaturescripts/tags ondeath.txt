@@ -1,0 +1,9 @@
+<event type="death" name="KillerBoss" event="script" value="BossXtibia.lua"/>
+<event type="death" name="teleportmonster" script="teleportmonster.lua"/>  
+<event type="death" name="tpvara" script="tpvara.lua"/>
+<event type="death" name="DeathBroadcast" event="script" value="deathBroadcast.lua"/>
+<event type="death" name="ProtectLevel" event="script" value="ProtectLevel.lua"/> 
+<event type="death" name="tp" event="script" value="tp.lua"/>
+<event type="death" name="last" event="script" value="last.lua"/>
+<event type="death" name="world" event="script" value="eventboss.lua"/>
+		<event type="combat" name="world2" event="script" value="eventboss.lua"/>

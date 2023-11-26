@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod name="Change gender command" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+<description>
+This mod will add new command for players - !sex.
+Players will be able to change gender, cost can be configured.
+</description>
+ 
+<config name="changender_config"><![CDATA[
+config = {
+costPrice = 200000
+}
+]]></config>
+<talkaction words="!sex" event="buffer"><![CDATA[
+domodlib('changender_config')
+if(getPlayerSex(cid) >= 2) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Voce nao pode mudar de sexo.")
+return
+end
+
+if doPlayerRemoveMoney(cid, config.costPrice) then
+doPlayerSetSex(cid, getPlayerSex(cid) == PLAYERSEX_FEMALE and PLAYERSEX_MALE or PLAYERSEX_FEMALE)
+doSendMagicEffect(getCreaturePosition(cid), CONST_ME_MAGIC_BLUE)
+else
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Voce precisa de 2 cryatal coins para mudar de sexo.")
+return
+end
+]]></talkaction>
+</mod>

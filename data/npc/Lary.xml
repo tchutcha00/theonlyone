@@ -1,0 +1,9 @@
+<npc name="Lary" script="data/npc/scripts/Ignot.lua" walkinterval="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="142" head="82" body="94" legs="84" feet="91" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Diga {trade} ou {negociar} para comprar algels pearl ou {augment} para evoluir as pearl." />
+                <parameter key="shop_buyable" value="angel pearl,2143,2000"/>
+	</parameters>
+</npc>

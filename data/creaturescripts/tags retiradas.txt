@@ -1,0 +1,9 @@
+event type="death" name="empe_broken" event="script" value="empe_broken.lua"/>
+	<event type="death" name="pre_empes" event="script" value="pre_empes.lua"/>
+	<event type="statschange" name="empe_dmg" event="script" value="empe_dmg.lua"/>
+	<event type="login" name="reg_vs_guard" event="script" value="vs_guard.lua"/>
+	<event type="statschange" name="vs_guard" event="script" value="vs_guard.lua"/>
+
+        <event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/>
+        <event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/>
+        <event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/>

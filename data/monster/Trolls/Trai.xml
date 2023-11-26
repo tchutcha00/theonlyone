@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Trainer" nameDescription="Elite Trainer" race="blood" experience="0" speed="0" manacost="0">
+<health now="10000000" max="10000000"/>
+<look type="57" head="95" body="95" legs="95" feet="95" addons="3" corpse="6080"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="120" defense="500"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="0"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="100"/>
+</flags>
+<attacks>
+		<attack name="melee" interval="1000" min="1" max="-30"/>
+		</attacks>
+
+	<defenses armor="120" defense="220">
+		<defense name="mass healing" interval="1000" chance="1000" min="10000000" max="10000000"/>
+	</defenses>
+<elements>
+<element firePercent="75"/>
+<element energyPercent="75"/>
+<element deathPercent="75"/>
+<element physicalPercent="75"/>
+<element holyPercent="75"/>
+<element icePercent="75"/>
+<element earthPercent="75"/>
+</elements>
+<immunities>
+<immunity physical="0"/>
+<immunity energy="0"/>
+<immunity fire="0"/>
+<immunity poison="0"/>
+<immunity lifedrain="1"/>
+<immunity paralyze="1"/>
+<immunity outfit="1"/>
+<immunity drunk="1"/>
+<immunity invisible="1"/>
+</immunities>
+</monster>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Snape [Attack Speed]" script="data/npc/scripts/speed.lua" walkinterval="5" floorchange="2000">
+<health now="100" max="100"/>
+<look type="146" head="0" body="94" legs="77" feet="82" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. quer evoluir o {attack speed} de sua weapon que esta sendo ultilizada no momento?"/>
+</parameters>
+</npc>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alia [Tasks]" script="data/npc/scripts/simple_task.lua" walkinterval="0" floorchange="0" direction="west">
+<health now="100" max="100"/>
+<look type="141" head="0" body="94" legs="77" feet="82" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. quer fazer uma {task}? ou {sair} de uma? diga {report} para finalizar e receber os premios!"/>
+</parameters>
+</npc>

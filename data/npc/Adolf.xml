@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Adolf" script="data/npc/scripts/castlevoucher.lua" walkinterval="1500" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="325" head="128" body="128" legs="128" feet="94" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="{Bem Vindo!}"/>
+	</parameters>
+</npc>

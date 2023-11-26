@@ -1,0 +1,8 @@
+<npc name="Jhonny" script="data/npc/scripts/jhonny.lua" walkinterval="1000" floorchange="5" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="145" head="0" body="114" legs="114" feet="114" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME| ! Diga {PASSAGEM} para ver minha rota..." />
+<parameter key="message_decline" value="Vai custar |TOTALCOST| gold coins."/>
+</parameters>
+</npc>

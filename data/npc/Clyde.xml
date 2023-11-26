@@ -1,0 +1,8 @@
+<npc name="Clyde" script="data/npc/scripts/clyde.lua" walkinterval="1000" floorchange="5" access="5" level="1" maglevel="1">
+        <health now="150" max="150"/>
+        <look type="151" head="79" body="85" legs="94" feet="58" addons="3"/>
+        <parameters>
+                <parameter key="message_greet" value="Ola |PLAYERNAME| ! Diga {PASSAGEM} para ver minha rota..." />
+                <parameter key="message_decline" value="Vai custar |TOTALCOST| gold coins."/>
+        </parameters>
+</npc>

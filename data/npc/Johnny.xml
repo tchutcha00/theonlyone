@@ -1,0 +1,9 @@
+<npc name="Hupert" script="data/npc/scripts/ringsandamulets.lua" walkinterval="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="128" head="0" body="132" legs="132" feet="0" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu vendo diversos tipos de backpack gostaria de comprar alguma? basta dizer {negociar}." />
+		<parameter key="shop_buyable" value="backpack,1988,20;green backpack,1998,20;yellow backpaack,1999,20;red backpack,2000,20;purple backpack,2001,20;blue backpack,2002,20;grey backpack,2003,20;golden backpack,2004,20;orange backpack,10519,20" />
+	</parameters>
+</npc>
